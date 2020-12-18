@@ -1,6 +1,6 @@
 from database import Database
 
-def log(username : str, ip : str, cmd : str):
+def add_log(username : str, ip : str, cmd : str):
     '''
     Add log into the database
     '''
